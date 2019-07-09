@@ -28,21 +28,21 @@ ms.locfileid: "67035051"
 
 2. 重新启动计算机时提示。
 
-## <a name="install-your-linux-distribution-of-choice"></a>安装所选的 Linux 分发版
+## <a name="install-your-linux-distribution-of-choice"></a>安装所选的 Linux 发行版
 若要下载并安装你首选的 distro(s)，您具有三个选项：
-1. 下载并安装来自 Windows 应用商店 （见下文）
+1. 从 Windows 应用商店下载并安装 （见下文）
 1. 从命令行/脚本下载并安装 ([读取手动安装说明](install-manual.md))
 1. 下载和手动解压缩并安装 (适用于 Windows Server-[此处的说明](install-on-server.md))
 
 ### <a name="windows-10-fall-creators-update-and-later-install-from-the-microsoft-store"></a>Windows 10 Fall Creators Update 及更高版本：从 Microsoft Store 安装
 
-> 本部分是为 Windows 生成 16215 或更高版本。  请按照这些步骤[检查你的生成](troubleshooting.md#check-your-build-number)。 
+> 本部分是为 Windows build 16215 或更高版本。  请按照这些步骤[检查你的build](troubleshooting.md#check-your-build-number)。 
 
-1. 打开 Microsoft Store，然后选择你喜爱的 Linux 分发。
+1. 打开 Microsoft Store，然后选择你喜爱的 Linux 发行版。
 
     ![在 Windows 应用商店中的 Linux 发行版的视图](media/store.png)
 
-    以下链接将打开每个分布区的 Windows 应用商店页：
+    以下链接将打开每个发行版的 Windows 应用商店页：
 
     * [Ubuntu 16.04 LTS](https://www.microsoft.com/store/apps/9pjn388hp8c9)
     * [Ubuntu 18.04 LTS](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q)
@@ -76,4 +76,4 @@ ms.locfileid: "67035051"
     
  * **失败，出现错误 0x8007019e WslRegisterDistribution**   
   * 未启用 Linux 可选组件的 Windows 子系统： 
-   * 打开**Control Panel** -> **程序和功能**-> * * 打开或关闭 Windows 功能 * *-> 检查**适用于 Linux 的 Windows 子系统**或使用在本文开头所述的 PowerShell cmdlet。
+   * 打开**控制面板** -> **程序和功能**-> **打开或关闭 Windows 功能**-> 检查**适用于 Linux 的 Windows 子系统**或使用在本文开头所述的 PowerShell cmdlet。
